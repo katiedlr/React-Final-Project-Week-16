@@ -1,0 +1,53 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  input[type="number"] {
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    color: #333333;
+    margin-right: 0.5rem;
+  }
+  
+  input[type="number"]::placeholder {
+    color: #b0b0b0;
+  }
+  
+  button[type="submit"] {
+    padding: .5rem 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #626465;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #56595c;
+  }
+  
+  div.bid-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #333333;
+  }
+  
+  div.bid-form p {
+    margin: 0.5rem 0;
+  }
+  
+  div.bid-form p.time-remaining {
+    font-weight: bold;
+  }
+  

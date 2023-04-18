@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.navbar-custom {
+  background-color: rgba(105, 180, 171, 0.478);
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.055);
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: bold;
+  font-size: 28px;
+  transition: color 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
+.navbar-custom .nav-link {
+  font-weight: bold;
+  font-size: 22px;
+  color: #fff !important;
+  transition: color 0.3s, background-color 0.3s;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Add text shadow */
+}
+
+.navbar-custom .nav-link:hover {
+  color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-custom .navbar-brand:hover {
+  color: rgba(255, 255, 255, 0.8);
+}

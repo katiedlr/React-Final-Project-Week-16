@@ -1,0 +1,18 @@
+body {
+  background-image: url('/Users/katiedelosreyes/Downloads/shutterstock_1956742048.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.white-text {
+  color: rgb(4, 2, 2);
+  font-weight: bold;
+  text-shadow: 2px 2px #d1cecebf;
+}
+
+.App {
+  text-align: center;
+}
+
+
